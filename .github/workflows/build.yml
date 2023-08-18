@@ -1,1 +1,4 @@
+# Run tests
+      - name: Run tests
+        run: mvn clean test
 
