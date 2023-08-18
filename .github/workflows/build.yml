@@ -31,6 +31,6 @@ jobs:
       run: mvn -B package --file pom.xml
 
      # Run tests
-      - name: Run tests
-        run: mvn clean test
+    - name: Run tests
+      run: mvn clean test
 
